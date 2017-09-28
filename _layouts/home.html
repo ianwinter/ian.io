@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <p>Welcome to the site. This time, with actual content! It's still a work in progress,
+     but it's much further on than it's been for the last few years. Take a look around
+     and if you have any comments, please <a href="/about/#contact">get in touch</a>.</p>
+
+  <p>A quick overview of this version, what's here and what isn't can be found in <a href="/2017/09/26/winter-has-arrived.html">this post</a>. I'll post more as I go along.
+
+  <h1 class="page-heading">Recent Posts</h1>
+
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in site.posts offset:0 limit:5  %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

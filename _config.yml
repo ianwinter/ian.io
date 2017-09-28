@@ -1,0 +1,108 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: ian.io
+email: hello@ian.io
+description: > # this means to ignore newlines until "baseurl:"
+  Father, husband, web infrastructure wrangler @venntro & private.
+  Enjoyer of bacon, maple syrup, craft beer, whiskey, pizza, rugby,
+  owls, lemurs & hair loss.🍍 🇬🇧 🇨🇦
+baseurl: ""
+url: "https://ian.io"
+twitter_username: ian_winter
+github_username:  ianwinter
+version: 1.0.0
+timezone: Europe/London
+lang: en-gb
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-admin
+  - jekyll-archives
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - liquid_reading_time
+
+# Plugins config
+jekyll-archives:
+  enabled:
+    - year
+      #    - month
+      #    - day
+    - tags
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tags/:name/'
+  layouts:
+    year: archive-year
+    month: archive-month
+    day: archive-day
+    tag: archive-tag
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+# Collections
+collections:
+  code-snippets:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+# SEO
+google_site_verification: '59BTkh1X9dhznapAPhfrT13e-QlJRRvz7B28YjTO2-U'
+google_analytics: 'UA-54222-12'
+
+twitter:
+  username: ian_winter
+
+facebook:
+  admins: 506344573
+
+social:
+  name: Ian Winter
+  links:
+    - https://twitter.com/ian_winter
+    - https://www.facebook.com/ianwinter
+    - https://www.linkedin.com/in/ianwinter
+    - https://github.com/ianwinter
+    - https://keybase.io/ian_winter
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+
+exclude:
+  - Rakefile
+  - README.md
+  - .bundle/
+  - .DS_Store
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - script/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: /tags/
+reference:
+- https://blog.meinside.pe.kr/Adding-tag-cloud-and-archives-page-to-Jekyll/
+- _plugins/tag_helpers.rb
+---
+
+<div class="archive">
+  <div class="post">
+    <header class="post-header">
+      <h1>Tag Archive</h1>
+    </header>
+    <div class="post-content">
+      <p>This is a full list of all the tags that have been used across posts and collections. You can also look at the <a href="/archives/">full archive</a> of all posts.</p>
+
+      <ul class="list-group">
+      {% assign sorted_tags_by_posts_count = site.tags | sort_tags_by_posts_count %}
+      {% for tag in sorted_tags_by_posts_count %}
+        <li class="list-group-item">
+          <a href="/tags/{{ tag[0] | prepend: site.baseurl }}">
+            {{ tag[0] }}
+          </a>
+            <span class="badge pull-right">({{ tag[1] }})</span>
+        </li>
+      {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</div>

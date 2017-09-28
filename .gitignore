@@ -1,0 +1,8 @@
+_site/
+_input-sass/
+blog-ideas.txt
+build/
+google7b85d9382e3547d5.html
+**/.sass-cache
+**/.sass-cache/*
+tweets/

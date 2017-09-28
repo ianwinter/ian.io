@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: /archives/
+---
+
+<div class="archive">
+  <div class="post">
+    <header class="post-header">
+      <h1>Post Archive</h1>
+    </header>
+    <div class="post-content">
+      <p>This is a full, chronological archive of all posts on the site. If you're bored and want to look at all <a href="/tags/">tags</a>, go ahead.</p>
+
+      {% assign current_year = "" %}
+      <ul class="archive-list">
+        {% for post in site.posts %}
+          <li>
+            <span class="archive-year">
+            {% assign post_year = post.date | date: "%Y" %}
+            {% if post_year != current_year %}{{ post_year }}{% endif %}
+            {% assign current_year = post_year %}
+            </span>
+            <span class="archive-month">{{ post.date | date: "%b %e" }}</span>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</div>

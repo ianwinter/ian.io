@@ -1,0 +1,21 @@
+---
+layout: page
+title: Shell
+language: shell
+parent: true
+permalink: /code-snippets/shell/
+---
+
+<div class="post-content">
+  {% assign snippets = site.code-snippets | where:"language","shell" | where:"parent","false" %}
+  <ul>
+  {% for snippet in snippets %}
+    <li><a href="{{ snippet.url }}">{{ snippet.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
+
+<div class="post-navigation">
+  <a class="prev" style="float:left;" href="/code-snippets/">&laquo; Code Snippets</a>
+</div>
+

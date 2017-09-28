@@ -1,0 +1,12 @@
+---
+layout: post
+status: publish
+title: office-humour.co.uk
+
+date: '2004-01-20 23:00:00 +0000'
+date_gmt: '2004-01-20 23:00:00 +0000'
+tags:
+- webapps
+- humour
+---
+One of the other sites I co-own and run is <a href="http://www.office-humour.co.uk">office-humour.co.uk</a>, just thought I'd include a quick history of it and the latest information.The site is a collection of jokes, funny stories, images and files that have been collated from office emails. It started off as a small site but now is hugely successful. The average page views per month is over 394,000 and hits 1,290,000. They're averages! Peak month to date saw hits over 3,000,000 and page views over 717,000.The site is now also listed on the first page of most search engines when doing a search for the keyword being used to measure this which is "office humour" (see <a href="http://www.google.com/search?hl=en&ie=UTF-8&oe=UTF-8&q=office+humour&btnG=Google+Search">Google</a>, <a href="http://search.lycos.com/default.asp?lpv=1&loc=searchhp&tab=web&query=office+humour">Lycos</a>, <a href="http://search.msn.com/results.aspx?q=office+humour&FORM=SMCRT">MSN</a>, <a href="http://search.yahoo.com/search?fr=fp-pull-web-t&p=office+humour">Yahoo</a>, <a href="http://msxml.excite.com/info.xcite/search/web/office%2Bhumour">Excite</a>, <a href="http://www.altavista.com/web/results?q=office+humour&kgs=0&kls=1&avkw=aapt">Altavista</a> and <a href="http://www.dogpile.com/info.dogpl/search/web/office%2Bhumour">Dogpile</a>. On all of these sites office-humour.co.uk (OH) is in the top 4 entries, and in most cases in the top 2!Also a site good to track worldwide position of sites is Alexa, a <a href="http://www.amazon.com">Amazon</a> company which has information and traffic details on sites. OH is currently ranked at <a href="http://www.alexa.com/data/details/main?q=&url=http://www.office-humour.co.uk">96,226</a>. This has gone up from 258,368 when OH was first noticed being listed. Not bad really.Of course if you want to advertise or sponsor OH in any sense, shape or form send <a href="mailto:admin@office-humour.co.uk?subject=contact from fpw">an email</a> over and we'll get in touch.... oh and if you've not been there before, get over there now!<a class="button" href="http://www.office-humour.co.uk/?refer=fpw"><img class="button" src="http://www.office-humour.co.uk/media/banners/120x60.gif" width="120" height="60" /></a>
