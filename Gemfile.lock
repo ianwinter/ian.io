@@ -120,6 +120,7 @@ DEPENDENCIES
   jekyll-sitemap
   liquid_reading_time
   nokogiri (~> 1.8.1)
+  rack-protection (~> 1.5.3)
 
 BUNDLED WITH
    1.15.4
