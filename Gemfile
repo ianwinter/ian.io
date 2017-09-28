@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "nokogiri", "~> 1.8.1"
-gem "rack-protection", "~> 1.5.3"
+gem "rack-protection", "~> 2.0.0"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
