@@ -22,7 +22,6 @@ gem "jekyll", "3.5.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-admin"
    gem "jekyll-archives"
    gem "jekyll-feed", "~> 0.6"
    gem "jekyll-gist"

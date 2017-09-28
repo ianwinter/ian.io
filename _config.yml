@@ -32,7 +32,6 @@ permalink: /:year/:month/:day/:title.html
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyll-admin
   - jekyll-archives
   - jekyll-gist
   - jekyll-mentions
