@@ -1,7 +1,3 @@
-- title: Automating our site build using Jekyll, Travis CI, S3 & CloudFront
-  link: https://dev.venntro.com/2017/10/23/automating-our-site-build-using-jekyll-travis-ci-s3-cloudfront.html
-  date: 2017-10-23
-
 - title: Enable protected branches for all GitHub repositories
   link: https://dev.venntro.com/2017/06/02/enable-github-protected-branches.html
   date: 2017-06-02
