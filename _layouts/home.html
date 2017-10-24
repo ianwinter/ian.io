@@ -10,21 +10,28 @@ layout: default
 
   <p>A quick overview of this version, what's here and what isn't can be found in <a href="/2017/09/26/winter-has-arrived.html">this post</a>. I'll post more as I go along.
 
-  <h1 class="page-heading">Recent Posts</h1>
+  <h1>Recent Posts</h1>
 
   {{ content }}
 
   <ul class="post-list">
-    {% for post in site.posts offset:0 limit:5  %}
+    {% for post in site.posts offset:0 limit:4  %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
       </li>
     {% endfor %}
+  </ul>
+
+  <h1>Posts from elsewhere</h1>
+  <p>These are posts I've written on the @venntrodev blog:</p>
+  <ul>
+  {% for pv in site.data.posts_venntro %}
+    <li><a href="{{ pv.link }}">{{ pv.title }}</a> - {{ pv.date | date: date_format }}</li>
+  {% endfor %}
   </ul>
 
 </div>
