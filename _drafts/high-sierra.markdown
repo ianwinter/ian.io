@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "macOS High Sierra"
-date:   2017-09-26 10:15:00 +0100
 tags:
 - macos 
 - high sierra
