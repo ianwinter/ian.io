@@ -1,3 +1,7 @@
+- title: Automating the build and deployment of our team site with Jekyll, GitHub, Travis, S3 and CloudFront
+  link: https://dev.venntro.com/2017/10/26/automating-the-build-and-deployment-of-our-team-site-with-jekyll-github-travis-s3-and-cloudfront.html
+  date: 2017-10-26
+
 - title: Enable protected branches for all GitHub repositories
   link: https://dev.venntro.com/2017/06/02/enable-github-protected-branches.html
   date: 2017-06-02
