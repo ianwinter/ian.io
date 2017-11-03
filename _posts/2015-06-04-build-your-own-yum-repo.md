@@ -8,6 +8,7 @@ tags:
 status: publish
 type: post
 published: true
+original: https://dev.venntro.com/2015/06/build-your-own-yum-repo/
 summary: >
   A summary of how to build and manage your own Yum repository to get
   around the challenges of packages being removed, or, to tie specific
@@ -24,7 +25,7 @@ No cats were harmed in the making of this repository.
 
 ## Create
 
-First off, you'll need to create some directories for your repo and 
+First off, you'll need to create some directories for your repo and
 packages to live in. You'll need to do this for each version and
 architecture you're going to support. In this case it's RHEL/CentOS
 only and versions 5 and 6.
@@ -119,3 +120,5 @@ $ yum --disablerepo=* --enablerepo=reponame search package
 
 What we're doing in the above is ensuring only our repo responds. After
 this point you can install or do whatever you need to.
+
+<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>

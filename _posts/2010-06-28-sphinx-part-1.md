@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: Sphinx (part 1)
-tags: 
+tags:
 - data-storage
 - indexing
 - mysql
@@ -9,13 +9,15 @@ tags:
 - sphinx
 status: publish
 type: post
+original: https://dev.venntro.com/2010/06/sphinx-part-1/
 published: true
 author: iwinter
-meta: 
+meta:
   _edit_last: "2"
   _pingme: "1"
   _encloseme: "1"
   _wp_old_slug: ""
+original: https://dev.venntro.com/2010/06/sphinx-part-1/
 ---
 <p>As part of our continued growth one of the main problems we came across was how to keep our searches running as quickly as possible so our members could find their perfect match easily. As the application grew some of the search queries running against MySQL were becoming complex and taking longer than we'd like to complete.</p>
 
@@ -32,3 +34,5 @@ meta:
 <p>Basically you build your base index daily (for example) storing a timestamp of when that occurred then every 5 minutes build a delta index containing changes. When it comes to searching you specify and index, to search the base and delta you just tell Sphinx to search both and it'll sort it out for you. To get rid of anything you don't want, like members who have been removed as scammers, there is a handy <a href="http://www.sphinxsearch.com/docs/current.html#conf-sql-query-killlist">killlist</a> option which removes them and build time of the delta. There are other ways to search indexes in a distributed way but more on that next time.</p>
 
 <p>For more information on Sphinx check out the <a href="http://www.sphinxsearch.com/">site</a>, <a href="http://www.sphinxsearch.com/docs/current.html">documentation</a> and <a href="http://www.sphinxsearch.com/wiki/doku.php?id=php_api_docs">wiki</a> for API examples.</p>
+
+<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>

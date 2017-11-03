@@ -9,6 +9,7 @@ tags:
 status: publish
 type: post
 published: true
+original: https://dev.venntro.com/2013/01/migrating-memcached/
 ---
 
 As part of the pre-Christmas push we rolled out a series of
@@ -141,6 +142,8 @@ it's content though.
 
 This is a perl program available on [google code][mc-top] which allows
 you monitor a given set of instances, much like regular top.
+
+<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
 
 [akamai]: http://www.akamai.com/
 [tcpcopy]: https://github.com/wangbin579/tcpcopy

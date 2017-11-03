@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Spot the ball
-tags: 
+tags:
 - football
 - graphs
 - monitoring
 status: publish
 type: post
+original: https://dev.venntro.com/2010/06/spot-the-ball/
 published: true
 author: iwinter
-meta: 
+meta:
   _edit_last: "5"
   _pingme: "1"
   _encloseme: "1"
@@ -25,3 +26,5 @@ meta:
 <p>Apparently there was a football match on at 3pm... Here are some of the team watching: you'll see the developers up front and centre! Shame we won't be watching any more matches after <a href="http://news.bbc.co.uk/sport1/hi/football/world_cup_2010/matches/match_51">Sunday's result</a>.</p>
 
 <a href="/images/uploads/2010/06/spottheball_2.jpg"><img class="alignnone" title="spottheball_2" src="/images/uploads/2010/06/spottheball_2.jpg" alt="" width="225" height="300" /></a>
+
+<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>

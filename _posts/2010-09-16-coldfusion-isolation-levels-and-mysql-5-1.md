@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: ColdFusion, isolation levels and MySQL 5.1
-tags: 
+tags:
 - coldfusion
 - java
 - mysql
 - replication
 status: publish
 type: post
+original: https://dev.venntro.com/2010/09/coldfusion-isolation-levels-and-mysql-5-1/
 published: true
 author: iwinter
-meta: 
+meta:
   _edit_last: "24"
   _syntaxhighlighter_encoded: "1"
   _pingme: "1"
@@ -84,3 +85,5 @@ build/mysql-connector-java-5.0.8-WLD/mysql-connector-java-5.0.8-CUSTOM-bin.jar
 <h3>What's next?</h3>
 
 <p>There's always something a bit better you can do. In our case I think we'll start to investigate the Percona builds of MySQL. They have a lot of plugins from Google/Facebook and other people providing extra stats and performance.</p>
+
+<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>

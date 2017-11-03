@@ -15,7 +15,7 @@ layout: default
   {{ content }}
 
   <ul class="post-list">
-    {% for post in site.posts offset:0 limit:4  %}
+    {% for post in site.posts offset:0 limit:5  %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -24,14 +24,6 @@ layout: default
         </h2>
       </li>
     {% endfor %}
-  </ul>
-
-  <h1>Posts from elsewhere</h1>
-  <p>These are posts I've written on the @venntrodev blog:</p>
-  <ul>
-  {% for pv in site.data.posts_venntro %}
-    <li><a href="{{ pv.link }}">{{ pv.title }}</a> - {{ pv.date | date: date_format }}</li>
-  {% endfor %}
   </ul>
 
 </div>

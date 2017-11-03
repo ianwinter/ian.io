@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: SSL, or is it?
-tags: 
+tags:
 - apache
 - coldfusion
 - rails
@@ -9,9 +9,10 @@ tags:
 - ssl
 status: publish
 type: post
+original: https://dev.venntro.com/2010/06/ssl-or-is-it/
 published: true
 author: iwinter
-meta: 
+meta:
   _edit_last: "4"
   _pingme: "1"
   _encloseme: "1"
@@ -37,3 +38,5 @@ RequestHeader set HTTPS "on"
 {% endhighlight %}
 
 <p>This means with simple header checks we can switch the behaviour of the application easily.</p>
+
+<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>

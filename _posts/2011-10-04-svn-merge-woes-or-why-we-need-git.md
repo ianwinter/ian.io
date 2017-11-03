@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: SVN merge woes, or why we need git
-tags: 
+tags:
 - git
 - svn
 status: publish
 type: post
 published: true
+original: https://dev.venntro.com/2011/10/svn-merge-woes-or-why-we-need-git/
 author: iwinter
-meta: 
+meta:
   _edit_last: "2"
   _syntaxhighlighter_encoded: "1"
   _pingme: "1"
@@ -103,3 +104,4 @@ svn: resource out of date; try updating
 
 <p>So, what's the answer? In a word, git. All our new projects are now using it and we're slowly migrated the SVN repositories as well. There's many comparisons between SCM's on the web but with the rapid world of web app development git is shining through as the best choice. It allows for increased flexibility both in terms of it's functionality but also the ease multiple teams and projects can interact and be cherry picked to deploy when they're ready.</p>
 
+<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>

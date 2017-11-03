@@ -8,6 +8,7 @@ tags:
 status: publish
 type: post
 published: true
+original: https://dev.venntro.com/2017/06/enable-github-protected-branches/
 summary: >
   A quick script to enable protected branches for all repositories in GitHub
 ---
@@ -64,7 +65,8 @@ end
 
 {% endhighlight %}
 
+<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+
 [githubpb]: https://help.github.com/articles/about-protected-branches/
 [newtoken]: https://github.com/settings/tokens/new
 [apidocs]: https://developer.github.com/v3/repos/branches/#update-branch-protection
-
