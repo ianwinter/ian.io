@@ -8,7 +8,7 @@ tags:
 status: publish
 type: post
 published: true
-original: https://dev.venntro.com/2015/06/build-your-own-yum-repo/
+canonical_url: https://dev.venntro.com/2015/06/build-your-own-yum-repo/
 summary: >
   A summary of how to build and manage your own Yum repository to get
   around the challenges of packages being removed, or, to tie specific

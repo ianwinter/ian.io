@@ -1,0 +1,23 @@
+#!/bin/sh
+set -e
+
+echo "Starting build"
+
+# build the site
+echo " => building site"
+bundle exec jekyll build --incremental
+
+# uncomment if you're using webmentions
+#echo " => sending webmentions"
+#bundle exec jekyll webmention
+
+# uncomment if you're using cloudflare
+#echo " => purging cloudflare"
+#curl -X DELETE "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONEID}/purge_cache" \
+#     -H "X-Auth-Email: ianwinter@gmail.com" \
+#     -H "X-Auth-Key: ${CLOUDFLARE_AUTHKEY}" \
+#     -H "Content-Type: application/json" \
+#     --data '{"purge_everything":true}'
+
+echo " = complete"
+

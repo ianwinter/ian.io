@@ -4,6 +4,8 @@ blog-ideas.txt
 build/
 google7b85d9382e3547d5.html
 logs/
+**/.jekyll-cache
+**/.jekyll-cache/*
 **/.sass-cache
 **/.sass-cache/*
 tweets/

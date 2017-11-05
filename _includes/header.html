@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -23,6 +23,12 @@
         <a class="page-link" href="/diabetes/">Diabetes</a>
         <a class="page-link" href="/projects/">Projects</a>
         <a class="page-link" href="/tweets/">Tweets</a>
+        <form action="https://www.google.com/search" role="search">
+          <div style="margin-right:8px;">
+            <input type="hidden" name="as_sitesearch" value="ian.io">
+            <input type="search" placeholder="Search..." id="search" name="q">
+          </div>
+        </form>
       </div>
     </nav>
   </div>

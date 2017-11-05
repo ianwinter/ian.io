@@ -10,7 +10,7 @@ tags:
 status: publish
 type: post
 published: true
-original: https://dev.venntro.com/2017/10/automating-the-build-and-deployment-of-our-team-site-with-jekyll-github-travis-s3-and-cloudfront/
+canonical_url: https://dev.venntro.com/2017/10/automating-the-build-and-deployment-of-our-team-site-with-jekyll-github-travis-s3-and-cloudfront/
 summary: >
   An overview of how and why we chose to automate the build of the dev.venntro.com site
   and move it to a different hosting solution.

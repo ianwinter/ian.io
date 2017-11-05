@@ -7,7 +7,7 @@ tags:
 - sphinx
 status: publish
 type: post
-original: https://dev.venntro.com/2010/07/sphinx-part-2/
+canonical_url: https://dev.venntro.com/2010/07/sphinx-part-2/
 published: true
 author: iwinter
 meta:

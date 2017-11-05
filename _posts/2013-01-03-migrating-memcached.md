@@ -9,7 +9,7 @@ tags:
 status: publish
 type: post
 published: true
-original: https://dev.venntro.com/2013/01/migrating-memcached/
+canonical_url: https://dev.venntro.com/2013/01/migrating-memcached/
 ---
 
 As part of the pre-Christmas push we rolled out a series of

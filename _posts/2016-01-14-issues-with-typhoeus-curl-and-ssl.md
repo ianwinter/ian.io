@@ -9,7 +9,7 @@ tags:
 status: publish
 type: post
 published: true
-original: https://dev.venntro.com/2016/01/issues-with-typhoeus-curl-and-ssl/
+canonical_url: https://dev.venntro.com/2016/01/issues-with-typhoeus-curl-and-ssl/
 summary: >
   How to resolve SSL CA certificate errors with typhoeus, curl and SSL.
 ---

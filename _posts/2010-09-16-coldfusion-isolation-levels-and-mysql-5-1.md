@@ -8,7 +8,7 @@ tags:
 - replication
 status: publish
 type: post
-original: https://dev.venntro.com/2010/09/coldfusion-isolation-levels-and-mysql-5-1/
+canonical_url: https://dev.venntro.com/2010/09/coldfusion-isolation-levels-and-mysql-5-1/
 published: true
 author: iwinter
 meta:

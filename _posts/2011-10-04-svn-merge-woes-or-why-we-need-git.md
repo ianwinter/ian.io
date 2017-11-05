@@ -7,7 +7,7 @@ tags:
 status: publish
 type: post
 published: true
-original: https://dev.venntro.com/2011/10/svn-merge-woes-or-why-we-need-git/
+canonical_url: https://dev.venntro.com/2011/10/svn-merge-woes-or-why-we-need-git/
 author: iwinter
 meta:
   _edit_last: "2"

@@ -9,7 +9,7 @@ tags:
 - ssl
 status: publish
 type: post
-original: https://dev.venntro.com/2010/06/ssl-or-is-it/
+canonical_url: https://dev.venntro.com/2010/06/ssl-or-is-it/
 published: true
 author: iwinter
 meta:
