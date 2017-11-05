@@ -8,7 +8,7 @@ tags:
 status: publish
 type: post
 published: true
-original: https://dev.venntro.com/2017/06/enable-github-protected-branches/
+canonical_url: https://dev.venntro.com/2017/06/enable-github-protected-branches/
 summary: >
   A quick script to enable protected branches for all repositories in GitHub
 ---

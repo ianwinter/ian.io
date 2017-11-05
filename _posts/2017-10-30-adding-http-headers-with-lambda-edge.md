@@ -8,7 +8,7 @@ tags:
 status: publish
 type: post
 published: true
-original: https://dev.venntro.com/2017/10/adding-http-headers-with-lambda-edge/
+canonical_url: https://dev.venntro.com/2017/10/adding-http-headers-with-lambda-edge/
 summary: >
   A brief overview of how we used Lambda@Edge to add custom HTTP headers to our static
   site hosted with CloudFront and S3.

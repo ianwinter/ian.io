@@ -1,21 +1,6 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: ian.io
 email: hello@ian.io
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Father, husband, web infrastructure wrangler @venntro & private.
   Enjoyer of bacon, maple syrup, craft beer, whiskey, pizza, rugby,
   owls, lemurs & hair loss.🍍 🇬🇧 🇨🇦
@@ -43,8 +28,8 @@ plugins:
 jekyll-archives:
   enabled:
     - year
-      #    - month
-      #    - day
+    #- month
+    #- day
     - tags
   permalinks:
     year: '/:year/'
@@ -70,15 +55,11 @@ collections:
     permalink: /:collection/:path/
 
 # SEO
-google_site_verification: '59BTkh1X9dhznapAPhfrT13e-QlJRRvz7B28YjTO2-U'
 google_analytics: 'UA-54222-12'
-
 twitter:
   username: ian_winter
-
 facebook:
   admins: 506344573
-
 social:
   name: Ian Winter
   links:
@@ -88,10 +69,6 @@ social:
     - https://github.com/ianwinter
     - https://keybase.io/ian_winter
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-
 exclude:
   - Rakefile
   - README.md
@@ -99,8 +76,9 @@ exclude:
   - .DS_Store
   - Gemfile
   - Gemfile.lock
+  - .jekyll-cache/
   - node_modules
-  - script/
+  - _scripts/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/

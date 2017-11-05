@@ -9,7 +9,7 @@ tags:
 - sphinx
 status: publish
 type: post
-original: https://dev.venntro.com/2010/06/sphinx-part-1/
+canonical_url: https://dev.venntro.com/2010/06/sphinx-part-1/
 published: true
 author: iwinter
 meta:
@@ -17,7 +17,7 @@ meta:
   _pingme: "1"
   _encloseme: "1"
   _wp_old_slug: ""
-original: https://dev.venntro.com/2010/06/sphinx-part-1/
+canonical_url: https://dev.venntro.com/2010/06/sphinx-part-1/
 ---
 <p>As part of our continued growth one of the main problems we came across was how to keep our searches running as quickly as possible so our members could find their perfect match easily. As the application grew some of the search queries running against MySQL were becoming complex and taking longer than we'd like to complete.</p>
 

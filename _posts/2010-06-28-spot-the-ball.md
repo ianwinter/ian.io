@@ -7,7 +7,7 @@ tags:
 - monitoring
 status: publish
 type: post
-original: https://dev.venntro.com/2010/06/spot-the-ball/
+canonical_url: https://dev.venntro.com/2010/06/spot-the-ball/
 published: true
 author: iwinter
 meta:
