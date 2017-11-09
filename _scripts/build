@@ -14,7 +14,7 @@ bundle exec jekyll build --incremental
 # uncomment if you're using cloudflare
 #echo " => purging cloudflare"
 #curl -X DELETE "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONEID}/purge_cache" \
-#     -H "X-Auth-Email: ianwinter@gmail.com" \
+#     -H "X-Auth-Email: ${CLOUDFLARE_EMAIL}" \
 #     -H "X-Auth-Key: ${CLOUDFLARE_AUTHKEY}" \
 #     -H "Content-Type: application/json" \
 #     --data '{"purge_everything":true}'
