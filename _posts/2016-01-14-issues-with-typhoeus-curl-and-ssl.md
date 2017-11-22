@@ -73,7 +73,7 @@ upgrade what was there.
 
 After that was all installed, a `curl --version` shows 7.41.0 and both teams got back on track.
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>
 
 [typhoeus issue]: https://github.com/typhoeus/typhoeus/issues/90
 [mirror-sysutils]: http://mirror.city-fan.org/ftp/contrib/sysutils/Mirroring/

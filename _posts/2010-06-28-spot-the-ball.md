@@ -27,4 +27,4 @@ meta:
 
 <a href="/images/uploads/2010/06/spottheball_2.jpg"><img class="alignnone" title="spottheball_2" src="/images/uploads/2010/06/spottheball_2.jpg" alt="" width="225" height="300" /></a>
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>

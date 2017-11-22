@@ -121,4 +121,4 @@ $ yum --disablerepo=* --enablerepo=reponame search package
 What we're doing in the above is ensuring only our repo responds. After
 this point you can install or do whatever you need to.
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>
