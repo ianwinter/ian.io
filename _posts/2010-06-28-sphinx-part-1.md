@@ -35,4 +35,4 @@ canonical_url: https://dev.venntro.com/2010/06/sphinx-part-1/
 
 <p>For more information on Sphinx check out the <a href="http://www.sphinxsearch.com/">site</a>, <a href="http://www.sphinxsearch.com/docs/current.html">documentation</a> and <a href="http://www.sphinxsearch.com/wiki/doku.php?id=php_api_docs">wiki</a> for API examples.</p>
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>

@@ -39,4 +39,4 @@ RequestHeader set HTTPS "on"
 
 <p>This means with simple header checks we can switch the behaviour of the application easily.</p>
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>

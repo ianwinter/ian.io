@@ -552,7 +552,7 @@ here for reference:
 Now the whole process is live, working well and our team site is secure. It's being built with
 [Travis CI][travis-ci], pushed to [S3][] and served securely using [CloudFront][] and a certificate from [Certificate Manager][acm].
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>
 
 [jekyllrb]: https://jekyllrb.com/
 [s3_website]: https://github.com/laurilehmijoki/s3_website

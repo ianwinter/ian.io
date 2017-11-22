@@ -70,16 +70,19 @@ social:
     - https://keybase.io/ian_winter
 
 exclude:
-  - Rakefile
-  - README.md
+  - _scripts/
   - .bundle/
   - .DS_Store
   - Gemfile
   - Gemfile.lock
+  - gulp*
   - .jekyll-cache/
   - node_modules
-  - _scripts/
+  - package*.json
+  - Rakefile
+  - README.md
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+

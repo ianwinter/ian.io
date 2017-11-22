@@ -66,4 +66,4 @@ index newsletter_search
 
 <p>Next time: using distributed indexes with Sphinx.</p>
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>
