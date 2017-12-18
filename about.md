@@ -43,7 +43,7 @@ If you want a site hosted I can recommend [UKFast](https://www.ukfast.co.uk). Th
 <div class="post-navigation" style="margin-top:30px;">
   <div style="float:left;">
     <img src="/assets/aws/AWS_Certified_Logo_294x230_Color.png" title="AWS Certified" /><br />
-    <img src="/assets/aws/AWS_Certified_Logo__CloudPractitioner_294x230-Color.png" title="AWS Certified Cloud Practitioner" style="margin-left:-12px;" />
+    <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2017-12-16&ci=AWS00372830"><img src="/assets/aws/AWS_Certified_Logo__CloudPractitioner_294x230-Color.png" title="AWS Certified Cloud Practitioner" style="margin-left:-12px;" /></a>
   </div>
   <div style="float:right;">
     <!-- UKFast's Partner Progamme Logo -->
