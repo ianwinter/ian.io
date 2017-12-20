@@ -45,9 +45,9 @@ Upgrading should be pretty simple, though, I'm not sure if the package will get 
 ``` shell
 $ killall transmission-daemon
 $ ipkg update
-ipkg upgrade
-transmission-daemon -g /opt/etc/transmission
-transmission-daemon -V
+$ ipkg upgrade
+$ transmission-daemon -g /opt/etc/transmission
+$ transmission-daemon -V
 ```
 
 Enjoy.
