@@ -63,7 +63,22 @@ You're almost certainly going to need to remove `.ssh/known_hosts` as each host 
 
 Don't forget to consider if there are any hosts, for any reason, you need a specific key/cipher/mac set for.
 
+# GitHub
+
+Since posting this and doing more testing, it turns out GitHub is more fussy. In the `ssh_config` I've now ended up withthis which seems to solve all GitHub issues I've come across (so far).
+
+``` shell
+Host github.com
+  ProxyCommand none
+  Port 22
+  User git
+  # https://gist.github.com/terrywang/a4239989b79d34f4160b
+  KexAlgorithms curve25519-sha256@libssh.org,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+  MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512
+```
+
 # References and Resources
+- [Secure Secure Shell](https://stribika.github.io/2015/01/04/secure-secure-shell.html)
 - [SSH Hardening via ansible](https://github.com/dev-sec/ansible-ssh-hardening)
 - [SSH-Audit Tool](https://github.com/arthepsy/ssh-audit)
 - [Sample Config & GitHub Variant](https://gist.github.com/terrywang/a4239989b79d34f4160b)
