@@ -9,7 +9,6 @@ status: publish
 type: post
 canonical_url: https://dev.venntro.com/2010/06/spot-the-ball/
 published: true
-author: iwinter
 meta:
   _edit_last: "5"
   _pingme: "1"

@@ -8,7 +8,6 @@ status: publish
 type: post
 published: true
 canonical_url: https://dev.venntro.com/2011/10/svn-merge-woes-or-why-we-need-git/
-author: iwinter
 meta:
   _edit_last: "2"
   _syntaxhighlighter_encoded: "1"

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Resolving SSL CA certificate errors with Typhoeus and cURL"
-author: iwinter
 tags:
   - curl
   - ssl

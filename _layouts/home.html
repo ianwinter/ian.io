@@ -17,11 +17,24 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts offset:0 limit:10  %}
       <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
+        <h2 style="margin-bottom:5px"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+        <p class="post-meta">
+          <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {{ post.date | date: date_format }}
+          </time>
+          {% if post.author %}
+            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ post.author }}</span></span>
+          {% endif %}
+          {% assign tags = post.tags %}
+          {% if post.tags.size > 0 %}
+            <span class="post-tags">
+              • {% for tag in tags %}<a href="{{site.baseurl}}/tags/{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+            </span>
+          {% endif %}
+          {% assign wc = post.content | count_words %}
+          • <span class="post-reading-time"><span itemprop="wordCount">{% include numberWithCommas.html number=wc %}</span> words</span>
+        </p>
       </li>
     {% endfor %}
   </ul>
