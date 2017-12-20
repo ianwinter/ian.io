@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Enable protected branches for all GitHub repositories"
-author: iwinter
 tags:
   - ruby
   - github

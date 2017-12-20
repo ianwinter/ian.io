@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Migrating memcached"
-author: iwinter
 tags:
 - memcached
 - migration

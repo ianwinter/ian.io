@@ -11,7 +11,6 @@ status: publish
 type: post
 canonical_url: https://dev.venntro.com/2010/06/sphinx-part-1/
 published: true
-author: iwinter
 meta:
   _edit_last: "2"
   _pingme: "1"

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Adding HTTP headers with Lambda@Edge"
-author: iwinter
 tags:
   - cloudfront
   - lambda

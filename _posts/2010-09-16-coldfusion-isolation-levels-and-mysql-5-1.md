@@ -10,7 +10,6 @@ status: publish
 type: post
 canonical_url: https://dev.venntro.com/2010/09/coldfusion-isolation-levels-and-mysql-5-1/
 published: true
-author: iwinter
 meta:
   _edit_last: "24"
   _syntaxhighlighter_encoded: "1"

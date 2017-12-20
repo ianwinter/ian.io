@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Build your own Yum repository"
-author: iwinter
 tags:
   - yum
   - packagemanagement
