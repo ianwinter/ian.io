@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Securing SSH
+tags: security hardening ssh
 ---
 
 I came across a tool on GitHub today thanks to a colleague. [SSH-Audit](https://github.com/arthepsy/ssh-audit) is a tool for auditing an ssh server.

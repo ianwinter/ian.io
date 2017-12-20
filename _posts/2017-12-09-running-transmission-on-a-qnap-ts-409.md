@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Running Transmission on a QNAP TS-409
+tags: torrent qnap ts-409
 ---
 
 I've got, and have had for many years, a QNAP TS-409. It's not great, efficient or pretty but it does the job. If you find yourself needing to download a legal torrent, say CentOS, but don't want to watch it you can run [Transmission](https://transmissionbt.com/) on the QNAP.
