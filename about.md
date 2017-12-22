@@ -40,20 +40,29 @@ Over the years it's been on a few different URLs, most recently ianwinter.co.uk 
 
 If you want a site hosted I can recommend [UKFast](https://www.ukfast.co.uk). They'll provide you a basic cloud, VPS or full on dedicated server and a whole lot more. Happy to put you in touch if you want a referral.
 
-<script id="ukfast_partner_logo" type="text/javascript">
-(function() {
-	function ukfast_cnh_build_link(){
-		var l = document.createElement('a');
-		l.setAttribute('href', 'https://my.ukfast.co.uk/partner-programme/validate.php?key=l39w1yomax3&domain='+document.domain);
-		l.setAttribute('title', 'Partner Programme with UKFast');
-		var i = document.createElement('img');
-		i.setAttribute('src', 'https://my.ukfast.co.uk/images/logos/ukfast/ukfast_partner/60x25.jpg');
-		i.setAttribute('alt', 'UKFast Partner Logo');
-		l.appendChild(i);
+<div class="post-navigation" style="margin-top:30px;">
+  <div style="float:left;">
+    <img src="/assets/aws/AWS_Certified_Logo_294x230_Color.png" title="AWS Certified" /><br />
+    <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2017-12-16&ci=AWS00372830"><img src="/assets/aws/AWS_Certified_Logo__CloudPractitioner_294x230-Color.png" title="AWS Certified Cloud Practitioner" style="margin-left:-12px;" /></a>
+  </div>
+  <div style="float:right;">
+    <!-- UKFast's Partner Progamme Logo -->
+    <script id="ukfast_partner_logo" type="text/javascript">
+    (function() {
+    	function ukfast_cnh_build_link(){
+    		var l = document.createElement('a');
+    		l.setAttribute('href', 'https://my.ukfast.co.uk/partner-programme/validate.php?key=uww5m1holvm&domain='+document.domain);
+    		l.setAttribute('title', 'Partner Programme with UKFast');
+    		var i = document.createElement('img');
+    		i.setAttribute('src', 'https://my.ukfast.co.uk/images/logos/ukfast/ukfast_partner/100x44.jpg');
+    		i.setAttribute('alt', 'UKFast Partner Logo');
+    		l.appendChild(i);
 
-		var x = document.getElementById('ukfast_partner_logo');
-		x.parentNode.insertBefore(l, x);
-	}
-	if (window.attachEvent) { window.attachEvent('onload', ukfast_cnh_build_link); } else { window.addEventListener('load', ukfast_cnh_build_link, false); }
-})();
-</script>
+    		var x = document.getElementById('ukfast_partner_logo');
+    		x.parentNode.insertBefore(l, x);
+    	}
+    	if (window.attachEvent) { window.attachEvent('onload', ukfast_cnh_build_link); } else { window.addEventListener('load', ukfast_cnh_build_link, false); }
+    })();
+    </script>
+  </div>
+</div>

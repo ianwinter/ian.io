@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Enable protected branches for all GitHub repositories"
-author: iwinter
 tags:
   - ruby
   - github
@@ -65,7 +64,20 @@ end
 
 {% endhighlight %}
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+**Update: Nov. 2017**
+
+Since writing this post, the API for protected branches is no longer in Developer Preview. Additionally some of the options have moved around in the JSON you need to send.
+
+Most of the original script is fine, but, the API section at the end needs to be updated. We've also added the `dismiss_stale_reviews` option which ensures if any commits are pushed after an approval they are also checked.
+
+{% highlight ruby %}
+repos.each do |repo|
+  cmd = %Q{curl -s -X PUT -H "Authorization: bearer #{BEARER_TOKEN}" --data '{"required_status_checks":{"strict":true,"contexts":[]},"enforce_admins": true,"required_pull_request_reviews":{"dismiss_stale_reviews": true},"restrictions":null}' https://api.github.com/repos/#{ORGANIZATION}/#{repo["name"]}/branches/master/protection}
+  run(cmd)
+end
+{% endhighlight %}
+
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>
 
 [githubpb]: https://help.github.com/articles/about-protected-branches/
 [newtoken]: https://github.com/settings/tokens/new

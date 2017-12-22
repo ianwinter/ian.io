@@ -9,7 +9,6 @@ status: publish
 type: post
 canonical_url: https://dev.venntro.com/2010/07/sphinx-part-2/
 published: true
-author: iwinter
 meta:
   _edit_last: "4"
   _pingme: "1"
@@ -66,4 +65,4 @@ index newsletter_search
 
 <p>Next time: using distributed indexes with Sphinx.</p>
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>

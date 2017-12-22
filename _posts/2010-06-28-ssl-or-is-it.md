@@ -11,7 +11,6 @@ status: publish
 type: post
 canonical_url: https://dev.venntro.com/2010/06/ssl-or-is-it/
 published: true
-author: iwinter
 meta:
   _edit_last: "4"
   _pingme: "1"
@@ -39,4 +38,4 @@ RequestHeader set HTTPS "on"
 
 <p>This means with simple header checks we can switch the behaviour of the application easily.</p>
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>

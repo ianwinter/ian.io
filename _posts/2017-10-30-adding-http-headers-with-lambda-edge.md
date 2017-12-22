@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Adding HTTP headers with Lambda@Edge"
-author: iwinter
 tags:
   - cloudfront
   - lambda
@@ -94,7 +93,7 @@ the future.
 We do however now have HTTP headers being served across all our [CloudFront][] backed sites using [Lambda@Edge][lae]
 ensuring we're keeping our sites following best practices.
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>
 
 [lae]: https://aws.amazon.com/lambda/edge/
 [CloudFront]: https://aws.amazon.com/cloudfront/

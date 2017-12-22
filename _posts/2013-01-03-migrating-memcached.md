@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Migrating memcached"
-author: iwinter
 tags:
 - memcached
 - migration
@@ -143,7 +142,7 @@ it's content though.
 This is a perl program available on [google code][mc-top] which allows
 you monitor a given set of instances, much like regular top.
 
-<em>Orginally published at <a href="{{ page.original }}">dev.venntro.com</a></em>
+<em>Orginally published at <a href="{{ page.canonical_url }}">dev.venntro.com</a></em>
 
 [akamai]: http://www.akamai.com/
 [tcpcopy]: https://github.com/wangbin579/tcpcopy
