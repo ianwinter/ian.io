@@ -9,12 +9,12 @@ gem "jekyll", "3.6.2"
 
 # jekyll plugins
 group :jekyll_plugins do
-   gem "jekyll-archives"
-   gem "jekyll-compose"
-   gem "jekyll-feed", "~> 0.6"
+   gem "jekyll-archives", ">= 2.1.1"
+   gem "jekyll-compose", ">= 0.5.0"
+   gem "jekyll-feed", "~> 0.9", ">= 0.9.2"
    gem "jekyll-gist"
-   gem "jekyll-mentions"
-   gem "jekyll-seo-tag"
-   gem "jekyll-sitemap"
+   gem "jekyll-mentions", ">= 1.2.0"
+   gem "jekyll-seo-tag", ">= 2.3.0"
+   gem "jekyll-sitemap", ">= 1.1.1"
    gem "liquid_reading_time"
 end
