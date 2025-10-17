@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # synk
 gem "nokogiri", "~> 1.8.1"
-gem "rack-protection", "~> 2.0.0"
+gem "rack-protection", "~> 2.0.1"
 
 # jekyll
 gem "jekyll", "3.6.2"
