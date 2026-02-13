@@ -12,7 +12,7 @@ group :jekyll_plugins do
    gem "jekyll-archives"
    gem "jekyll-compose"
    gem "jekyll-feed", "~> 0.6"
-   gem "jekyll-gist"
+   gem "jekyll-gist", ">= 1.5.0"
    gem "jekyll-mentions"
    gem "jekyll-seo-tag"
    gem "jekyll-sitemap"
